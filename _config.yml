@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Kiko Castro
 locale:           en_US
 url:              
 
@@ -26,21 +26,21 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Kiko Castro
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "."
   email: 
   disqus-shortname: 
-  twitter: #username
+  twitter: kikocastro_
   facebook: #username
   google:
-    plus: #username
+    plus: KikoCastro1
     analytics: 
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: kikocastro
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
