@@ -1,0 +1,677 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>clearbox 3.7 - created by kreatura</title>
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+	<meta name="title" content="clearbox 3.7 - created by kreatura" />
+	<meta name="author" content="Kreatura Media" />
+	<meta name="description" content="Homepage of clearbox script - created by kreatura - kreaturamedia.com" />
+	<meta name="keywords" content="clearbox, kreatura, kreatura media, lightbox, thickbox, greybox, javascript, js, picture, image, kĂŠp, css, web, design, dizĂĄjn" />
+	<meta name="robots" content="index, nofollow" />
+	<meta name="Copyright" content="Copyright Kreatura Media 2011., All rights reserved." />
+	<link href="layout/css/page.css" rel="stylesheet" type="text/css" />
+	<script src="script/clearbox.js" type="text/javascript"></script>
+	<script src="script/page.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<p id="menu">
+				<a id="firstmenuitem" href="#2">setup</a>
+				<a href="#3">usage</a>
+				<a href="#4">examples</a>
+				<a href="#5">parameters</a>
+				<a href="#6">user settings</a>
+				<a href="#7">professional usage</a>
+				<a href="download.php" rel="clearbox[width=640,,height=600,,dlinsame,,dlhrf=dl.php]">download</a>
+				<a href="inner#contact" rel="clearbox">contact</a>
+				<a id="lastmenuitem" href="index.html">magyar</a>
+				<a style="position: relative; top: 3px;" target="_blank" href="http://whos.amung.us/show/t0ctvzxi"><img src="http://whos.amung.us/cwidget/t0ctvzxi/000000a7a9ac.png" alt="hit counters" width="40" height="14" border="0" /></a>
+				<a id="cl" href="inner#changelog" rel="clearbox">version <script type="text/javascript">document.write(CB_Ver);</script></a>
+			</p>
+			<div id="banner">
+				<a href="demo.html">
+					<img src="layout/images/banner_demo.jpg" alt="clearbox demonstration: ibiza '09" />
+				</a>
+			</div>
+		</div>
+		<div id="content">
+			<div id="facebook">
+				<div id="fb_inner">
+					<iframe src="http://www.facebook.com/plugins/likebox.php?id=127450707281646&amp;width=720&amp;connections=12&amp;stream=false&amp;header=false&amp;height=180" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:720px; height:180px;" allowTransparency="true"></iframe>
+				</div>
+			</div>
+			<div id="cbfree">
+				<iframe src="http://www.facebook.com/plugins/like.php?app_id=202250639821590&amp;href=https%3A%2F%2Fwww.facebook.com%2Fkreaturamedia&amp;send=false&amp;layout=button_count&amp;width=500&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:21px;" allowTransparency="true"></iframe>
+			</div>	
+			<p class="par_justify">
+				Clearbox is a professional image and content viewer overlay window created by <a href="http://kreaturamedia.com" target="_blank">kreatura</a>. Images below are speaking for themself, where you can see some examples about using the script: image galleries and many type of contents including Flash, Quicktime, Windows Media formats, HTML, inner content, etc.<br /><br />
+				Using of clearbox is free.
+			</p>
+			<div class="sample_container" id="sample_01">
+				<a target="_blank" href="images/grass_01.jpg" rel="clearbox[gallery=Green,,title=Green Sample 01]"><img alt="#1" src="images/grass_01_tn.jpg" /></a><a target="_blank" href="images/grass_02.jpg" rel="clearbox[gallery=Green,,title=What if the title or caption text is too long and it doesn't fit here? You can even read it, because clearbox has a nice feature that is scrolling the title text.]"><img alt="#2" src="images/grass_02_tn.jpg" /></a><a target="_blank" href="images/grass_03.jpg" rel="clearbox[gallery=Green,,title=Look! There is a comment below! :),,comment=Hello! I am a comment text - one of the new features of clearbox 3! There is no maximum - you can use as long text as you want and html codes are working too, like for example &lt;font color=&quot;#ff7700&quot;&gt;colorizing&lt;/font&gt; or &lt;strong&gt;bold text&lt;/strong&gt;.]"><img alt="#3" src="images/grass_03_tn.jpg" /></a>
+				<p class="sample_text_01">Image Gallery
+				</p>
+				<p class="sample_text_02">Green
+				</p>
+				<p class="sample_text_03">just click on the pictures...
+				</p>
+			</div>
+			<div class="sample_container" id="sample_02">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    	
+				<img id="contents" src="layout/images/contents.jpg" alt="clearbox contents" />
+				<a href="images/grass_01.jpg" rel="clearbox[tnhrf=nopreview,,gallery=Mixed Gallery,,title=Green Sample 01]"><img class="fakepic" src="layout/images/blank.gif" alt="image" /></a>
+				<a href="htmlcontent" rel="clearbox[tnhrf=nopreview,,gallery=Mixed Gallery,,width=400,,height=100,,html=&lt;br /&gt;&lt;strong&gt;&lt;font size=&quot;4&quot; color=&quot;#ff7700&quot;&gt;Hi! I am a html formatted text!&lt;/font&gt;&lt;br /&gt;&lt;br /&gt;You can use most of html codes. For more information, please check the 'Professional usage' on www.clearbox.hu!&lt;/strong&gt;,,title=HTML content]"><img class="fakepic" src="layout/images/blank.gif" alt="html content" /></a>
+				<a href="inner#test" rel="clearbox[tnhrf=nopreview,,gallery=Mixed Gallery,,title=Inner content,,comment=Alike, but not similar to the previous example!]"><img class="fakepic" src="layout/images/blank.gif" alt="inner content" /></a>
+				<a href="test.swf" rel="clearbox[tnhrf=nopreview,,gallery=Mixed Gallery,,width=600,,height=400,,title=Flash content]"><img class="fakepic" src="layout/images/blank.gif" alt="flash content" /></a>
+				<a href="http://www.youtube.com/v/OtQN-iDfprU" rel="clearbox[tnhrf=nopreview,,gallery=Mixed Gallery,,width=700,,height=490,,title=A clearbox 3 preview movie on YouTube,,comment=I uploaded some movies to YouTube from clearbox 3...]"><img class="fakepic" src="layout/images/blank.gif" alt="youtube movie" /></a>
+				<a href="http://handras.hu/insight/media/insight_960.mov" rel="clearbox[tnhrf=nopreview,,gallery=Mixed Gallery,,title=iNSIGHT (http://handras.hu/insight),,comment=This video is a demo shot entirely with Canon's 5D MarkII DSLR camera. It is a six minute three-section video demonstration of a photoshoot and digital image composition process. The video is mainly intended to demonstrate the capabilities of the camera and to share our joy of creation through behind-the-scenes pictures.&lt;br /&gt;&lt;font color=&quot;#ff7700&quot;&gt;QuickTime plugin required!&lt;/font&gt;,,width=960,,height=540]"><img class="fakepic" src="layout/images/blank.gif" alt="quicktime movie" /></a>
+				<a href="test.mp3" rel="clearbox[tnhrf=nopreview,,gallery=Mixed Gallery,,width=500,,height=150,,title=MP3 music,,comment=Windows Media Player plugin is required!]"><img class="fakepic" src="layout/images/blank.gif" alt="music" /></a>
+				<p class="sample_text_01">Mixed Gallery
+				</p>
+				<p class="sample_text_02">Gallery of different content types
+				</p>
+				<p class="sample_text_03">You can create galleries with no compromises!
+				</p>
+			</div>
+			<p class="par_justify"><a name="1"></a>
+				<span class="title">What's new in clearbox 3?</span>
+				Everything. :) The script became much smarter. As you can see, it supports <span class="hl">lot of new content types</span>, but also the usage has been changed. I changed the default folders of the script, added <span class="hl">multi-language support</span> and <span class="hl">more user settings</span>. I added a <span class="hl">new animation</span> called 'grow'. Now, clearbox is also <span class="hl">working BEFORE the page is fully loaded</span>! In clearbox 3 you can add your <span class="hl">multi-line comment</span> to any content. You can <span class="hl">rotate the images</span> with clearbox (not working in Internet Explorer or some other older browsers) and I added a fancy <span class="hl">OSD</span>.
+			</p>
+			<p class="par_justify"><a name="2"></a>
+				<span class="title">Clearbox setup</span>
+				Download the script and uncompress it into the root folder of your webpage! You will see a file called <span class="hl">clearbox.js</span> and a folder named <span class="hl">clearbox</span>. I put all the required files here.<br/><br />
+				In <span class="hl">clearbox</span> folder, there are three another folders:
+			</p>
+			<p class="tab">
+				<span class="hl">core</span> contains the clearbox core script and you have nothing to do with it.<br /><br />
+				<span class="hl">language</span> is required to multi-language support. You can easily add your language file. If you look into the folder, you will see how.<br /><br />
+				<span class="hl">config</span> is the third, which is the most important. I put user settings in it, but you can add your own configuration here. For example it's easy to create your own clearbox-layout by modifying the user settings and changing the pictures and the css file, if you want. And - here is a special gift :) - I created a sample configuration called <span class="hl">grow_transparent</span> for you!
+			</p>
+			<p class="par_justify">
+				Add this line to header:
+			</p>                                                                                
+			<div class="hlc">
+				&lt;script src=&quot;clearbox.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+			</div>
+			<p class="par_justify">
+				Of course, you can put <span class="hl">clearbox.js</span> where you want.<br /><br />
+				There are some settings in <span class="hl">clearbox.js</span>:
+			</p>
+			<p class="tab">
+				<span class="hl">CB_SrciptDir</span> is the script folder. You have to set the path according to your html file including clearbox.js. You can use absolute url too.<br /><br />
+				<span class="hl">CB_Language</span> - you can set the default language after added your own laguage file.
+			</p>
+			<p class="par_justify">
+				If you want to use your own configuration, load the <span class="hl">config</span> parameter:
+			</p>
+			<div class="hlc">
+				&lt;script src=&quot;clearbox.js?config=myconfig&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+			</div>
+			<p class="tab">
+				<span class="hl">myconfig</span> is the name of the folder that contains your settings under <span class="hl">clearbox/config</span>.
+			</p>
+			<p class="par_justify">
+				You can also set <span class="hl">CB_SrciptDir</span> with <span class="hl">dir</span> and <span class="hl">CB_Language</span> with <span class="hl">lng</span> parameter:
+			</p>                                                                                
+			<div class="hlc">
+				&lt;script src=&quot;clearbox.js?dir=scripts/clearbox&amp;lng=eng&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+			</div>
+			<p class="par_justify">
+				That's it! You don't have to add other lines (like including css file) into header.
+			</p>
+			<p class="par_justify"><a name="3"></a>
+				<span class="title">Using clearbox</span>
+				Add the <span class="hl">rel="clearbox"</span> attribute to activate the script. You can use the optional <span class="hl">title</span> parameter to add a caption or title to your image or other type of contents.
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;image.jpg&quot; <span class="hl">rel=&quot;clearbox&quot;</span> <span class="hl">title=&quot;Caption&quot;</span>&gt;&lt;img src="image_thumbnail.jpg" /&gt;&lt;/a&gt;
+			</div>
+			<p class="par_justify">
+				As a default, you don't have to specify the type of content. Clearbox is very smart, it can automatically detect content types. For example, if you want to use clearbox for playing an MP3 file, you have to use exactly the same attribute with the optional <span class="hl">title</span> parameter:
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;music.mp3&quot; <span class="hl">rel=&quot;clearbox&quot;</span>&gt;sample music&lt;/a&gt;
+			</div>
+			<p class="par_justify">
+				<span class="title">Creating galleries</span>
+				If you want to create an image or a mixed content gallery, you have to add the SAME GALERY NAME to all of the contents:
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;a.jpg&quot; <span class="hl">rel=&quot;clearbox[gallery=My Gallery]&quot;</span>&gt;sample image&lt;/a&gt;<br />
+				&lt;a href=&quot;b.mp3&quot; <span class="hl">rel=&quot;clearbox[gallery=My Gallery]&quot;</span>&gt;sample music&lt;/a&gt;<br />
+				&lt;a href=&quot;http://www.youtube.com/v/myrmovieid&quot; <span class="hl">rel=&quot;clearbox[gallery=My Gallery]&quot;</span>&gt;sample youtube&lt;/a&gt;
+			</div>
+			<div id="test" style="background-color: #000;">
+			<p class="par_justify">
+				<span class="title">Content types and detection</span>
+				Clearbox detects automatically the following content types in <span class="hl">href</span> attribute:
+			</p>
+			<p class="tab">
+				<span class="hl">Image formats:</span> BMP, GIF, JPG, JPEG, PNG<br /><br />
+				<span class="hl">Movie formats:</span> AVI, MOV, MPG, MPEG, WMV<br /><br />
+				<span class="hl">Audio formats:</span> 	MP3, WAV, WMA<br /><br />
+				<span class="hl">Flash:</span> SWF<br /><br />
+				<span class="hl">Inner content:</span> inner#id_of_an_element<br /><br />
+				<span class="hl">HTML content:</span> adding <span class="hl">htmlcontent</span> to href<br /><br />
+				<span class="hl">Iframe content:</span> http://... - you can display any webpages with clearbox<br /><br />
+				and also <span class="hl">YOUTUBE</span> urls(!), like:<br />http://www.youtube.com/v/mymovieid
+			</p>
+			</div>
+			<p class="par_justify">
+				<a name="4"></a>
+				<span class="title">Examples:</span>
+				Inner content: you have to use the expression <span class="hl">inner#</span> and the id of an element of your page and clearbox will display it. It also auto-detects the dimensions of the element.
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;inner#test&quot; <span class="hl">rel=&quot;clearbox&quot;</span>&gt;inner content&lt;/a&gt;
+			</div>
+			<p class="par_justify">
+				HTML: you can display any HTML code with clearbox - including text or any HTML tags. If you want to use more html items in the same gallery, you have to use the htmlcontent#1, htmlcontent#2, etc. formats to make them perceptible. IMPORTANT: In this case, you have to use a parameter called <span class="hl">html</span> (you can read more about parameters below).
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;htmlcontent&quot; <span class="hl">rel=&quot;clearbox[html=&lt;strong&gt;This is a bold text&lt;/strong&gt;]&quot;</span>&gt;my webpage&lt;/a&gt;
+			</div>
+			<p class="par_justify">
+				Iframe:
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;http://www.mywebpage.com&quot; <span class="hl">rel=&quot;clearbox&quot;</span>&gt;my webpage&lt;/a&gt;
+			</div>
+			<p class="par_justify">
+				YouTube:
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;http://www.youtube.com/v/mymovieid&quot; <span class="hl">rel=&quot;clearbox&quot;</span>&gt;my youtube video&lt;/a&gt;
+			</div>
+			<p class="par_justify">
+				Movies:
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;movie.wmv&quot; <span class="hl">rel=&quot;clearbox&quot;</span>&gt;my movie&lt;/a&gt;
+			</div>
+			<p class="par_justify">
+				Music:
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;music.wav&quot; <span class="hl">rel=&quot;clearbox&quot;</span>&gt;my music&lt;/a&gt;
+			</div>
+			<p class="par_justify"><a name="5"></a>
+				<span class="title">Additional parameters</span>
+				As you can see, we are using <span class="hl">[ ]</span> bracelets to put the gallery name into, but you can use here some other parameters. <span class="hl">IMPORTANT:</span> if you add more parameters, you have to separate them with double-commas - <span class="hl">,,</span> - and you have to use <span class="hl">=</span> to add values! You don't have to use quotation marks!
+			</p>
+			<div class="hlc">
+				&lt;a href=&quot;mycontent&quot;<span class="hl">rel=&quot;clearbox[parameter1=value 1,,parameter2=value 2,,parameter3=value 3]&quot;</span>&gt;some content&lt;/a&gt;
+			</div>
+			<p class="par_justify">
+				You can use the following - optional - parameters:
+			</p>
+			<p class="tab">
+				<span class="hl">gallery</span><br />
+				Name of the gallery. At least two items must have the same name. You can create galleries as much you want!<br />
+				USAGE: <span class="hl">gallery=My Gallery Name</span><br /><br />
+				<span class="hl">href</span><br />
+				You can set the url of the content with this parameter too. For example: if you need to load other content than in the &lt;a&gt; tag specified.<br />
+				USAGE: <span class="hl">href=mycontent</span><br /><br />
+				<span class="hl">type</span><br />
+				If you want to overide the auto content-type detection of clearbox, use this parameter. Values can be: <span class="hl">flash, html, iframe, image, inner, quicktime, winmedia</span>.<br />
+				USAGE: <span class="hl">type=flash</span><br /><br />
+				<span class="hl">title</span><br />
+				If you don't want to use the title attribute of &lt;a&gt; tag than add the title in rel tag :)<br />
+				USAGE: <span class="hl">title=My Title</span><br /><br />
+				<span class="hl">width</span><br />
+				You can set the width of the clearbox window to the content you want to display. For example, if you have a flash movie with 200 pixels width, set this parameter to 200!<br />
+				USAGE: <span class="hl">width=200</span><br /><br />
+				<span class="hl">height</span><br />
+				Of course you can set the height too.<br />Note, that width and height parameters are working with images too. For example you can deform images with using these parameters!<br />
+				USAGE: <span class="hl">height=200</span><br /><br />
+				<span class="hl">tnhrf</span><br />
+				It works only with galleries! You can add thumbnail picture to a gallery item. Warning! In ClearBox 2, this parameter had tnhr<span class="hl">e</span>f name, but in clearbox 3, it is tnhrf without an 'e' letter! Sorry for this change!<br />
+				USAGE: <span class="hl">tnhrf=mythumbnails/mythumbnail.jpg</span><br /><br />
+				<span class="hl">slideshowtime</span><br />
+				It works only with image galleries! You can add different slideshow durations (in seconds) to different images!<br />
+				USAGE: <span class="hl">slideshowtime=10</span><br /><br />
+				<span class="hl">autoslideshow</span><br />
+				It works only with image galleries! If you add this parameter, the slideshow will automatically start at this item. Note, that this parameter has no value!<br />
+				USAGE: <span class="hl">autoslideshow</span><br /><br />
+				<span class="hl">comment</span><br />
+				You can write a comment text to any content. Length is not maximized, but if the height of the comment box exceeds the value of <span class="hl">CB_TxtHMax</span> parameter (located in cb_config.js), the comment-box will be scrollable. IMPORTANT: If you want to use HTML codes in your comment, please read carefully the 'Using HTML codes in comment and HTML mode' subject in the 'Professional usage' section on this page!<br />
+				USAGE: <span class="hl">comment=This is my comment</span><br /><br />
+				<span class="hl">closeonh</span><br />
+				If it is off, than clearbox wont close if you click on the background. Note, that this setting overwrites the global CB_CloseOnH user setting at the actual gallery item.<br />
+				USAGE: <span class="hl">closeonh=off</span><br /><br />
+				<span class="hl">dlhrf</span><br />
+				At default clearbox has a download or maximum size button at the bottom. Use this parameter when you want to download other content, that clearbox actually shows, if you click to the download button. Or use this parameter, if you want to add a downloadable content to a content type, that clearbox shows.<br />
+				USAGE: <span class="hl">dlhrf=mydownloadablecontent</span><br /><br />
+				<span class="hl">dlinsame</span><br />
+				Use this parameter, if you want to open the downloadable content in the same window instead of open it in a new browser window or tab. Note, that this parameter has no value!<br />
+				USAGE: <span class="hl">dlinsame</span><br /><br />
+				<span class="hl">html</span><br />
+				This is a REQUIRED parameter for HTML mode! Clearbox can display any html content by adding <span class="hl">href="htmlcontent"</span> to the &lt;a&gt; tag AND using this parameter. Clearbox will display the parameter's value, so you can use ANY HTML CODE in the value. IMPORTANT: Please read carefully the 'Using HTML codes in comment and HTML mode' subject in the 'Professional usage' section on this page!<br />
+				USAGE FOR EXAMPLE: <span class="hl">html=&lt;strong&gt;This is a bold text&lt;/strong&gt;</span>
+			</p>
+			<p class="par_justify"><a name="6"></a>
+				<span class="title">User settings in cb_config.js</span>
+				<span class="hl">Clearbox layout:</span>
+			</p>
+			<p class="tab">
+				<span class="hl">CB_WindowColor='#fff'</span><br />
+				color of the CB window (note: you have to change the frame and rounded-corner PNGs too!), transparent is also working
+		        </p>
+       			<p class="tab">
+				<span class="hl">CB_MinWidth=120</span><br />
+				minimum (only at images) or initial width of CB window
+			</p>
+       			<p class="tab">
+				<span class="hl">CB_MinHeight=120</span><br />
+				initial heigth of CB window
+			</p>
+       			<p class="tab">
+				<span class="hl">CB_WinPadd=15</span><br />
+				padding of the CB window from sides of the browser 
+			</p>
+       			<p class="tab">
+				<span class="hl">CB_RoundPix=12</span><br />
+				change this setting only if you are generating new PNGs for rounded corners
+			</p>
+       			<p class="tab">
+				<span class="hl">CB_ImgBorder=0</span><br />
+                                border size around the picture in CB window
+			</p>
+       			<p class="tab">
+				<span class="hl">CB_ImgBorderColor='#ddd'</span><br />
+				border color around the picture in CB window
+			</p>
+       			<p class="tab">
+				<span class="hl">CB_Padd=4</span><br />
+				padding around inside the CB window
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_BodyMarginLeft=0</span><br />
+       				<span class="hl">CB_BodyMarginRight=0</span><br />
+       				<span class="hl">CB_BodyMarginTop=0</span><br />
+       				<span class="hl">CB_BodyMarginBottom=0</span><br />
+       				if you set margin to &lt;body&gt;, please change these settings!
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ShowThumbnails='auto'</span><br />
+       				it tells CB how to show the thumbnails ('auto', 'always' or 'off') thumbnails are only in picture-mode!
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ThumbsBGColor='#000'</span><br />
+       				color of the thumbnail layer
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ThumbsBGOpacity=.35</span><br />
+       				opacity of the thumbnail layer
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ActThumbOpacity=.65</span><br />
+       				thumbnail opacity of the current viewed image
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_SlideShowBarColor='#fff'</span><br />
+       				color of the slideshow bar
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_SlideShowBarOpacity=.5</span><br />
+       				opacity of the slideshow bar
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_SlideShowBarPadd=17</span><br />
+       				padding of the slideshow bar (left and right)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_SlideShowBarTop=2</span><br />
+       				position of the slideshow bar from the top of the picture in px
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_SimpleDesign='off'</span><br />
+       				if it's 'on', CB doesn't show the frame but only the content - really nice ;)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_CloseBtnTop=-10</span><br />
+       				vertical position of the close button in picture mode
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_CloseBtnRight=-14</span><br />
+       				horizontal position of the close button in picture mode
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_CloseBtn2Top=-20</span><br />
+       				vertical position of the close button in content mode
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_CloseBtn2Right=-30</span><br />
+       				horizontal position of the close button in content mode
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_OSD='on'</span><br />
+       				turns on OSD
+			</p>
+			<p class="par_justify">
+				<span class="hl">Clearbox font, text and navigation (at the bottom of CB window) settings:</span>
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_FontT='Verdana'</span><br />
+				<span class="hl">CB_FontSizeT=12</span><br />
+       				<span class="hl">CB_FontColorT='#777'</span><br />
+       				<span class="hl">CB_FontWeightT='normal'</span><br />
+       				these variables are referring to the title or caption line
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_FontC='arial'</span><br />
+       				<span class="hl">CB_FontSizeC=11</span><br />
+       				<span class="hl">CB_FontColorC='#aaa'</span><br />
+      				<span class="hl">CB_FontWeightC='normal'</span><br />
+       				<span class="hl">CB_TextAlignC='justify'</span><br />
+       				these variables are referring to comment lines under the title
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_TxtHMax=42</span><br />
+       				maximum height of the comment box in pixels
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_FontG='arial'</span><br />
+       				<span class="hl">CB_FontSizeG=11</span><br />
+       				<span class="hl">CB_FontColorG='#999'</span><br />
+       				<span class="hl">CB_FontWeightG='normal'</span><br />
+       				these variables are referring to the gallery name
+			</p>
+       			<p class="tab">
+				<span class="hl">CB_TextH=35</span><br />
+				default height of the text area under the content in CB window (adding a comment will modify this setting), if you change the font sizes, you maybe have to change this setting
+			</p>
+       			<p class="tab">
+				<span class="hl">CB_PadT=10</span><br />
+				space in pixels between the content and the title or caption line
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ShowURL='off'</span><br />
+       				it shows the url of the content if no title or caption is given
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ItemNum='on'</span><br />
+       				it shows the ordinal number of the content in galleries
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ItemNumBracket='()'</span><br />
+       				whatever you want ;)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ShowGalName='on'</span><br />
+       				it shows the gallery name
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_TextNav='on'</span><br />
+       				it shows previous and next navigation
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_NavTextImgPrvNxt='on'</span><br />
+       				it shows previous and next buttons instead of text
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ShowDL='on'</span><br />
+       				it shows download controls
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_NavTextImgDL='on'</span><br />
+       				it shows download buttons instead of text
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ImgRotation='on'</span><br />
+       				it shows the image rotation controls
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_NavTextImgRot='on'</span><br />
+       				it shows the image rotation buttons instead of text
+			</p>
+			<p class="par_justify">
+				<span class="hl">Settings of the document-hiding layer:</span>
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_HideColor='#000'</span><br />
+       				color of the layer
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_HideOpacity=.85</span><br />
+       				opacity (0 is invisible, 1 is 100% color) of the layer
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_HideOpacitySpeed=400</span><br />
+       				speed of fading
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_CloseOnH='on'</span><br />
+       				CB will close, if you click on background
+			</p>
+			<p class="par_justify">
+				<span class="hl">Clearbox animation settings:</span>
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_Animation='double'</span><br />
+       				'double', 'normal', 'off', 'grow' or 'warp' (high cpu usage)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ImgOpacitySpeed=450</span><br />
+       				speed of content fading (in ms)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_TextOpacitySpeed=350</span><br />
+       				speed of text fading under the picture (in ms)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_AnimSpeed=400</span><br />
+       				speed of the resizing animation of CB window (in ms)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_ImgTextFade='on'</span><br />
+       				turns on or off the fading of content and text
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_FlashHide='off'</span><br />
+       				it hides flash animations on the page before CB starts
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_SelectsHide='on'</span><br />
+       				it hides select boxes on the page before CB starts
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_SlShowTime=5</span><br />
+       				default speed of the slideshow (in sec)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_Preload='on'</span><br />
+       				preload neighbour pictures in galleries
+			</p>
+			<p class="par_justify">
+				<span class="hl">Images using by clearbox settings:</span>
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_PictureStart='start.png'</span><br />
+       				<span class="hl">CB_PicturePause='pause.png'</span><br />
+       				<span class="hl">CB_PictureClose='close.png'</span><br />
+       				<span class="hl">CB_PictureNext='next.png'</span><br />
+       				<span class="hl">CB_PicturePrev='prev.png'</span><br />
+       				file names of some images using by clearbox (there are other images specified in clearbox.css!)
+			</p>
+			<p class="par_justify">
+				<span class="hl">Clearbox professional settings:</span>
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_PicDir=CB_ScriptDir+'/config/'+CB_Config+'/pic'</span><br />
+       				CHANGE ONLY IF YOU CHANGED THE DEFAULT DIRECTORY-STRUCTURE OF CB!
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_AllowedToRun='on'</span><br />
+       				if 'off', CB won't start (you can change this variable without reload!)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_AllowExtFunctLoad='off'</span><br />
+       				if 'on', CB will run a function named <span class="hl">CB_ExternalFunctionLoad();</span> every time after a new content has loaded (useful for audit, etc)
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_AllowExtFunctPageLoad='off'</span><br />
+       				if 'on', CB will run a function named <span class="hl">CB_ExternalFunctionPageLoad();</span> after your page has fully loaded
+			</p>
+       			<p class="tab">
+       				<span class="hl">CB_AllowExtFunctCBClose='off'</span><br />
+       				if 'on', CB will run a function named <span class="hl">CB_ExternalFunctionCBClose();</span> after CB window has closed
+			</p>
+			<p class="par_justify"><a name="7"></a>
+				<span class="title">Professional usage</span>
+				<span class="hl">Using HTML codes in comment and HTML mode</span><br /><br />
+				You can use any HTML codes in your comment or in HTML mode (href="htmlcontent"), but you have to keep your eyes open and make some tricks. Let me explain, why. 
+				Don't forget, that if you're writing a comment or adding the 'html=' parameter in HTML mode, YOU ARE IN AN OPENED REL ATTRIBUTE OF AN OPENED &lt;a&gt; TAG! 
+				So it is clean-cut, that you cannot use any <span class="hl">&lt; &gt; and &quot;</span> characters here!<br /><br />
+				Thatswhy, instead of use this HTML code:
+		        </p>
+			<div class="hlc">
+				&lt;font color=&quot;#ff6600&quot;&gt;my text&lt;/font&gt;
+			</div>
+			<p class="par_justify">
+				Use THIS:
+			</p>
+			<div class="hlc">
+				<span>&amp;</span>lt;font color=<span>&amp;</span>quot;#ff6600<span>&amp;</span>quot;<span>&amp;</span>gt;my text<span>&amp;</span>lt;/font<span>&amp;</span>gt;
+			</div>
+			<p class="par_justify">
+				Yeah, I know: it's not too nice, but it's really simple:
+			</p>
+			<p class="tab">
+				use <span class="hl">&amp;lt;</span> INSTEAD OF <span class="hl">&lt;</span><br /><br />
+				use <span class="hl">&amp;gt;</span> INSTEAD OF <span class="hl">&gt;</span><br /><br />
+				use <span class="hl">&amp;quot;</span> INSTEAD OF <span class="hl">&quot;</span><br /><br />
+				use <span class="hl">&amp;apos;</span> INSTEAD OF <span class="hl">apos;</span><br /><br />
+				use <span class="hl">&amp;amp;</span> INSTEAD OF <span class="hl">&amp;</span>
+			</p>
+			<p class="par_justify">
+				That's it! :)
+			</p>
+			<p class="par_justify">
+				<span class="hl">Opening clearbox manually from javascript</span><br /><br />
+				Use the <span class="hl">CB_Open();</span> function! CB_Open has all the same parameters above, but in this case, the <span class="hl">href</span> parameter is always required!
+			</p>
+			<div class="hlc">
+				CB_Open('href=mycontent,,parameter2=value 2,,parameter3=value 3,, ... ');
+			</div>
+			<p class="par_justify">
+				<span class="hl">Opening clearbox from flash (not tested!)</span><br /><br />
+				IMPORTANT: Do NOT forget to add the <span class="hl">wmode = transparent</span> parameter to your flash movie(s)!<br />
+				I think you can open clearbox from flash too with the <span class="hl">CB_Open();</span> function. The parameters are the same but if you want to use galleries on a full-flash page, than you have to create the CB_Gallery array manually BEFORE you call CB_Open(); function! You can read about CB_Gallery below, but I show you a working example, how to create it:<br /><br />
+				<span class="hl">Creating CB_Gallery manually:</span>
+			</p>
+			<div class="hlc">
+				CB_Gallery=new Array(); // creating the array<br />
+				CB_Gallery[0]='Example'; // name of the gallery<br /><br />
+
+				CB_Gallery[1]=new Array(); // array of first item:<br /><br />
+				CB_Gallery[1][0]='images/grass_01.jpg'; // url<br />
+				CB_Gallery[1][1]='image'; // type<br />
+				CB_Gallery[1][2]='Green Sample #1'; // title<br />
+				CB_Gallery[1][5]='images/grass_02.jpg'; // tnhrf<br />
+				CB_Gallery[1][8]='This is a comment'; // comment<br /><br />
+
+				CB_Gallery[2]=new Array(); // array of second item:<br /><br />
+				CB_Gallery[2][0]='http://www.clearbox.hu'; // url<br />
+				CB_Gallery[2][1]='iframe'; // type<br />
+				CB_Gallery[2][2]='Clearbox home'; // title<br />
+				CB_Gallery[2][3]=900; // width<br />
+				CB_Gallery[2][4]=500; // height<br />
+				CB_Gallery[2][8]='Home page of clearbox.'; // comment<br /><br />
+
+				CB_Open('gallery=Example,,href=http://www.clearbox.hu'); // In this case, you MUST use the gallery parameter, and href is the url of one of the gallery items.
+			</div>
+			<p class="par_justify">
+				<span class="hl">CB_Gallery setup</span><br /><br />
+				If you want to dinamically change contents or data in a clearbox-gallery, you have to know, how it works. CB_Gallery is the name of an Array, that clearbox uses for storing the data of the gallery items. <span class="hl">CB_Gallery[0]</span> contains ALWAYS the name of the gallery or if you click on a single item, that is not a part of any galleries, <span class="hl">CB_Gallery[0]</span> is 'clearbox'. Thatswhy <span class="hl">CB_Gallery.length is always n + 1</span>, where n is the number of the items in gallery. You can refer to any item of the gallery by <span class="hl">CB_Gallery[n]</span> and n = 1 if you refer to the first item.
+			</p>
+			<p class="tab">
+				<span class="hl">CB_Gallery[n]</span> is always an array:<br /><br />
+				<span class="hl">CB_Gallery[n][0]</span> is the url of the item (<span class="hl">href</span> parameter)<br/>
+				<span class="hl">CB_Gallery[n][1]</span> is the type of the item (<span class="hl">type</span> parameter)<br/>
+				<span class="hl">CB_Gallery[n][2]</span> is the title or caption of the item (<span class="hl">title</span> parameter)<br/>
+				<span class="hl">CB_Gallery[n][3]</span> is the width of the item (<span class="hl">width</span> parameter)<br/>
+				<span class="hl">CB_Gallery[n][4]</span> is the height of the item (<span class="hl">height</span> parameter)<br/>
+				<span class="hl">CB_Gallery[n][5]</span> is the thumbnail url of the item (<span class="hl">tnhrf</span> parameter)<br/>
+				<span class="hl">CB_Gallery[n][6]</span> is the <span class="hl">slideshowtime</span> of the item<br/>
+				<span class="hl">CB_Gallery[n][7]</span> is the <span class="hl">autoslideshow</span> parameter<br/>
+				<span class="hl">CB_Gallery[n][8]</span> is the comment of the item (<span class="hl">comment</span> parameter)<br/>
+				<span class="hl">CB_Gallery[n][9]</span> is the <span class="hl">closeonh</span> parameter<br/>
+				<span class="hl">CB_Gallery[n][10]</span> is the download url of the item (<span class="hl">dlhrf</span> parameter)<br/>
+				<span class="hl">CB_Gallery[n][11]</span> is the <span class="hl">dlinsame</span> parameter<br/>
+				<span class="hl">CB_Gallery[n][12]</span> is the <span class="hl">html</span> parameter (only at HTML mode)<br />
+				<span class="hl">CB_Gallery[n][13]</span> is the rotation of the image in degrees (90, 180 or 270)
+			</p>
+			<p class="par_justify">
+				If CB_Gallery exists, you can check any item of it by calling <span class="hl">CB_ShowActItem(ID);</span> function, where ID is the number of the gallery item. <a href="javascript:CB_ShowActItem(1);">Click here to test it!</a>
+			</p>
+			<p class="par_justify">
+				<span class="hl">Closing clearbox from inside of the clearbox window</span><br /><br />
+				If you want to close clearbox from an iframe, use the <span class="hl">window.parent.CB_Close();</span> function, or in any other cases (html, inner content, flash) use the <span class="hl">CB_Close();</span> function!
+			</p>
+			<p class="par_justify">
+				<span class="hl">Loading other gallery item from inside of the clearbox window</span><br /><br />
+				If you want to load other gallery item from an iframe, use the <span class="hl">window.parent.CB_LoadContent(ID);</span> function, or in any other cases (html, inner content, flash) use the <span class="hl">CB_LoadContent(ID);</span> function, where ID is the ordinal number of the item in gallery!
+			</p>
+			<p class="par_justify">
+				<span class="hl">Using the script with AJAX</span><br /><br />
+				If you load new content with AJAX in your webpage without refreshing it and you want, that the clearbox work with the new content too, you have to call <span class="hl">CB_Init();</span> function AFTER your AJAX content-load.
+			</p>
+			<p class="par_justify">
+				<span class="hl">Running your own function when clearbox loads a content</span><br /><br />
+				See the end of the 'Clearbox professional settings' section of 'User settings in cb_config.js' subject on this page!
+			</p>
+		</div>
+		<div id="contact">
+			<p class="par justify">
+				<span class="title">Contact</span>
+				developer: <a href="http://kreaturamedia.com" target="_blank">kreatura media</a><br />
+			</p>
+		</div>
+		<div id="changelog">
+			<p class="tab" style="width: 700px;">
+				<span class="title">Changelog</span>
+				<span class="hl">Version 3.7</span> (2011. 06. 28.)<br/><br/>
+				- fixed FF5 bug<br/><br/>
+				<span class="hl">Version 3.6</span> (2011. 03. 28.)<br/><br/>
+				- fixed FF4 bug<br/>
+				- other bugfixes<br/><br/>
+				<span class="hl">Version 3.02</span> (2009. 07. 26.)<br/><br/>
+				- fixed CB_ExternalFunctionPageLoad(); (#2 :)<br/>
+				- now the canvas tag is not hiding some part of the content of your webpage at first load<br/><br/>
+				<span class="hl">Version 3.01</span> (25. 07. 09.)<br/><br/>
+				- now working with script tags in head without src attribute<br />
+				- fixed a little resizing bug<br/>
+				- fixed CB_ExternalFunctionPageLoad();<br/>
+				- fixed document-hiding layer resizing bug in some browsers<br/>
+				- fixed document-hiding layer resizing bug when page is not fully loaded<br/>
+				- smaller script size<br/>
+				- added French and Turkish languages<br/>
+				- changed language path: eng to en and hun to hu.<br/><br/>
+				<span class="hl">Version 3.0</span> (22. 07. 09.)<br/><br/>
+				- lot of new supported content types<br/>
+				- multi-language support<br/>
+				- more user settings<br/>
+				- new animation type<br/>
+				- working BEFORE the page is fully loaded<br />
+				- multi-line comment<br />
+				- rotate the images (except IE)<br />
+				- OSD<br />
+			</p>
+		</div>
+		<div id="footer">
+			created by <a href="http://kreaturamedia.com" target="_blank">kreatura</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-3549989-1");
+			pageTracker._initData();
+			pageTracker._trackPageview();
+	</script>
+</body>
+</html>	

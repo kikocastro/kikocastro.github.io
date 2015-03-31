@@ -1,0 +1,26 @@
+	function OnLoad(evType,fn){
+
+		if(typeof window.addEventListener!='undefined'){
+			window.addEventListener(evType,fn,false);
+		 }else if(typeof document.addEventListener!='undefined'){
+			document.addEventListener(evType,fn,false);
+		}else if(typeof window.attachEvent!='undefined'){
+			window.attachEvent("on"+evType, fn);
+		}
+	}
+
+	var CB_email_a, CB_email_b, CB_email_c, CB_email_d;
+	OnLoad('load', Init);
+
+function Init(){
+	CB_email_a='clearboxjs';
+	CB_email_b='@';
+	CB_email_c='gmail';
+	CB_email_d='com';
+	//document.getElementById('nemkellszemet').innerHTML='<a id="nemkell_szemet" href="javascript:Nemkellszemet()">'+CB_email_a+CB_email_b+CB_email_c+'.'+CB_email_d+'</a>';
+	return;
+}
+
+function Nemkellszemet() {
+	document.location.href='mailto:'+CB_email_a+CB_email_b+CB_email_c+'.'+CB_email_d;
+}
