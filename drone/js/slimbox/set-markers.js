@@ -41,26 +41,26 @@ function setMarkers(map, locations) {
   // Origins, anchor positions and coordinates of the marker
   // increase in the X direction to the right and in
   // the Y direction down.
-  var image = new google.maps.MarkerImage('images/beachflag.png',
-      // This marker is 20 pixels wide by 32 pixels tall.
-      new google.maps.Size(20, 32),
+  var image = new google.maps.MarkerImage('images/drone-pi.png',
+      // This marker is 24 pixels wide by 26 pixels tall.
+      new google.maps.Size(55, 55),
       // The origin for this image is 0,0.
       new google.maps.Point(0,0),
       // The anchor for this image is the base of the flagpole at 0,32.
-      new google.maps.Point(0, 32));
+      new google.maps.Point(55, 55));
   var shadow = new google.maps.MarkerImage('images/beachflag_shadow.png',
       // The shadow image is larger in the horizontal dimension
       // while the position and offset are the same as for the main image.
-      new google.maps.Size(37, 32),
+      new google.maps.Size(55, 55),
       new google.maps.Point(0,0),
-      new google.maps.Point(0, 32));
+      new google.maps.Point(0, 55));
       // Shapes define the clickable region of the icon.
       // The type defines an HTML &lt;area&gt; element 'poly' which
       // traces out a polygon as a series of X,Y points. The final
       // coordinate closes the poly by connecting to the first
       // coordinate.
   var shape = {
-      coord: [1, 1, 1, 20, 18, 20, 18 , 1],
+      coord: [1, 1, 1, 55, 55, 55, 55 , 1],
       type: 'poly'
   };
   for (var i = 0; i < locations.length; i++) {
