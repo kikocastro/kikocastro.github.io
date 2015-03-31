@@ -41,14 +41,14 @@ function setMarkers(map, locations) {
   // Origins, anchor positions and coordinates of the marker
   // increase in the X direction to the right and in
   // the Y direction down.
-  var image = new google.maps.MarkerImage('images/drone-pi.png',
+  var image = new google.maps.MarkerImage('images/drone-pi-icon.png',
       // This marker is 24 pixels wide by 26 pixels tall.
       new google.maps.Size(55, 55),
       // The origin for this image is 0,0.
       new google.maps.Point(0,0),
       // The anchor for this image is the base of the flagpole at 0,32.
       new google.maps.Point(55, 55));
-  var shadow = new google.maps.MarkerImage('images/beachflag_shadow.png',
+  var shadow = new google.maps.MarkerImage('images/drone-pi-icon.png',
       // The shadow image is larger in the horizontal dimension
       // while the position and offset are the same as for the main image.
       new google.maps.Size(55, 55),
