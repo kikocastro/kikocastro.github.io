@@ -1,10 +1,3 @@
-// ***************************************************************
-
-// This custom Clearbox array is used in the example for marker 6 
-// Note: see the full list and description of the 13 parameter types at http://www.clearbox.hu
-
-// ***************************************************************
-  
 
 CB_Gallery=new Array(); // creates the array
 CB_Gallery[0]='myphotos'; // name of the gallery
